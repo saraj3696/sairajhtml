@@ -4,7 +4,7 @@
 {
      --primary-color: #7C3AED; 
     --dark-grey: #6B7280
-    --off-white:#F3F4F6
+    --off-white: #F3F4F6
 }
 
 body
@@ -94,6 +94,7 @@ hr
  }
 .hero .hero-heading
 {
+    text-align: center;
     color: var(--dark-grey);
     text-align: center;
 }
@@ -110,4 +111,32 @@ hr
 .ow
 {
     background-color: var(--off-white);
+}
+.footer
+{
+
+}
+.footer-header
+{
+
+}
+.social-link
+{
+
+}
+.footer
+{
+    background-color: violet;
+    border-bottom-right-radius: 0.5rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white
+}
+.footer .link
+{
+    color: white;
+}
+.footer ul
+{
+    padding-inline-start: 0px;
 }
