@@ -4,6 +4,7 @@
 {
      --primary-color: #7C3AED; 
     --dark-grey: #6B7280
+    --off-white:#F3F4F6
 }
 
 body
@@ -95,4 +96,18 @@ hr
 {
     color: var(--dark-grey);
     text-align: center;
+}
+.section
+{
+    padding: 2rem;
+}
+}
+.section h1
+{
+    text-align: center;
+    padding: 2rem;
+}
+.ow
+{
+    background-color: var(--off-white);
 }
