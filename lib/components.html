@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- css way 1 :style tag -->
+    <!-- <style>
+        body{
+            color : blue;
+        }
+    </style> -->
+    <!-- third way of doing css : external link -->
+    <link href = "styles.css" rel = "stylesheet"/>
+</head>
+<body>
+    <h1>Welcome to sheela sairaj component library</h1>
+    <p1>I am attending neog.camp and i want to make a library that contains list of all my projects look good and consistent .</p1>
+
+    <hr>
+   
+    <h2>@typography</h2>
+
+    <h1>this is the biggest heading</h1>
+    <h2>this is the second biggest heading</h2>
+    <h3>this is the third biggest heading </h3>
+    <p>let me show you normal text </p>
+    <small> this is relatively smaller text </small>
+    <p>this paragraph will have <strong>bold</strong></p>
+
+    <hr>
+
+    <h2>@container</h2>
+    <h3>fluid container </h3>
+    <div class ="container  ">this is a fluid container and this will go till the end of the page</div>
+    
+    <h3>centre container </h3>
+    <div class = "container container-center ">this a center container and this will go till a specified width </div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <a class = "link link-primary "href="www.youtube.com">  primary link  </a>
+    <a class ="link link-secondary "href="www.youtube.com"> youtube </a>
+    <!-- <a href="/"> primary link </a>    structure of link-->
+
+    <hr>
+
+    <h2>@lists</h2>
+    
+    <h3>unordered lists</h3>
+    <p> This list will not have bullet </p>
+
+    <ul class = "list-non-bullet">
+        <li>Item one</li>
+        <li>Item Two</li>
+        <li>Item three</li>
+    </ul>
+
+
+    <h3>unordered inline lists</h3>
+
+    <ul class = "list-non-bullet">
+        <li class= "list-item-inline">unorderd inline itemone</li>
+        <li class= "list-item-inline">unorderd inline itemtwo</li>
+        <li class= "list-item-inline">unorderd inline itemthree</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+        <li>mils</li>
+        <li>eggs</li>
+        <li>bread</li>
+    </ol>
+
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class= "navigation container">
+        <div class ="nav-brand">iAmBrand</div>
+        <ul class = "list-non-bullet nav-pills">
+            <li class =" list-item-inline">
+                <a class=" link link-active" href = "/" > home</a>
+            </li>
+            <li class ="list-item-inline">
+                <a class ="link"href ="/"> products</a>
+            </li>
+            <li class ="list-item-inline">
+                <a class ="link"href ="/">summary</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <hr>
+    <h2>header</h2>
+    <header class = "hero">
+        <img class ="hero-img" src = "images/hero my selection .svg">
+        <h1 class = "hero-heading"> sairaj webdeveloper </h1>
+    </header>
+
+    <hr>
+
+    <h2>@sections</h2>
+
+
+    <section class = "section">
+        <div class ="container container-center">
+            <h1>@ white section</h1>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.Every part of MDN (docs, demos, and the site itself) is created by an open community of developers. Please, join us! </p>
+        </div>
+         
+    </section>  
+
+    <section class ="section ow">
+        <div class ="container container-center">
+            <h1> @ off white section</h1>
+            <p> We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
+
+                Every part of MDN (docs, demos, and the site itself) is created by an open community of developers. Please, join us!</p>
+        </div>
+        
+    </section>
+
+    <hr>
+
+     <h2> footer </h2>
+    <footer class="footer"> 
+        <div class ="footer-header"> connect me through </div>
+        <ul class = "social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a class ="link list-non-bullet" href = "/">facebook
+                </a>
+            </li>
+            <li  class="list-item-inline">
+                <a class ='link list-non-bullet'href = "/">instagram
+                </a>
+            </li>
+            <li  class="list-item-inline">
+                <a class ="link list-non-bullet"href = "/">twitter 
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+
+
+
+    
+
+</body>
+</html>
